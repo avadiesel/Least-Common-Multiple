@@ -22,8 +22,12 @@ int main(){
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
 	cout.tie(0);
-	ll a,b;
-	inp(a);inp(b);
-	pn(lcm(a,b));
+	ll t;
+	inp(t);
+	while(t--){
+		ll a,b;
+		inp(a);inp(b);
+		pn(lcm(a,b));
+	}
 	return 0;
 }
